@@ -1,0 +1,81 @@
+body {
+    background-size: 100% auto;
+}
+
+#content {
+    margin-top: 5%;
+    background-color: #F8F8F2;
+    color: rgba(0, 0, 0, 0.71);
+}
+
+
+#cv p {
+    text-align: justify;
+    text-justify: distribute;
+}
+
+#stack p {
+    text-align: justify;
+    text-justify: distribute;
+}
+
+
+.tab-holder {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.avatar {
+    margin: 10px;
+    padding-right: 30px;
+}
+
+.social a {
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.71);
+}
+
+.social a:hover {
+    color: #EB6C72;
+}
+
+
+.collapsible-tab .collapsible {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+}
+
+.collapsible-header:hover {
+    color: #EB6C72;
+}
+
+#cv {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+#cv .collapsible-body {
+    background-color: #efefe9;
+}
+
+.image {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: left;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+hr {
+    background-color: #EB6C72;
+    border-color: #EB6C72;
+    color: #EB6C72;
+}
+
+/*Markdown shit wraps everything in paragraphs */
+td p {
+  margin: 0;
+  padding: 0;
+}
