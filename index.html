@@ -47,8 +47,10 @@
     gpg_key: "https://visgean.me/key.asc",
     last_fm: "http://www.last.fm/user/visgean",
     good_reads: "https://www.goodreads.com/user/show/32711861-visgean-skeloru",
-    bitcoin: "1NrSwh9dqBWyP8xYyjj9sUJazaNAdMEohB",
-    ethereum: "0x663aBdde3302C5ecCce0f31467604B03e0d9554c",
+
+    bitcoin: "https://blockchain.info/address/1NrSwh9dqBWyP8xYyjj9sUJazaNAdMEohB",
+    ethereum: "https://etherscan.io/address/0x663abdde3302c5eccce0f31467604b03e0d9554c",
+
     technologies: [
         "Django / Geo Django", "PostgreSQL", "Ubuntu", "Debian administration", 
         "Facebook Graph API", "Bitcoin", "Ethereum", "Angular.js", "MongoDB", 
@@ -64,7 +66,7 @@
         },
         freelance: {
             "github.com/WebArchivCZ/Seeder": "Django OS project for National Library",
-            "projectonaut": "My first paid work was to help out with backend of Projectonaut",
+            "projectonaut": "My first paid work, just helping out though.",
             "topsceneries": "Our photography startup that failed, shit happens.",
             "klckrystof.cz": "Backend and servers, written in Django. ",
             "vycepnastojaka.cz": "Website for a pub, I had beers for free there!",
@@ -111,7 +113,7 @@
 
 		    Object.values(contact).forEach(function (value, index) {
 		        if (typeof(value.startsWith) !== 'undefined' && value.startsWith('http')) {
-		            var link = '<a target="blank" href="'+value + '">' + value + '</a>';
+		            var link = '<a target="_blank" href="'+value + '">' + value + '</a>';
 		            contact_code = contact_code.replace(new RegExp(value, 'g'), link)            
 		        }
 
