@@ -2,28 +2,27 @@ body {
     background-size: 100% auto;
 }
 
+
+::-webkit-scrollbar {
+   display: none;
+}
+
+
 #content {
     margin-top: 5%;
-    background-color: #F8F8F2;
+    background-color: beige;
     color: rgba(0, 0, 0, 0.71);
 }
 
 
-#cv p {
-    text-align: justify;
-    text-justify: distribute;
+.container {
+    /*
+    Set width to the whole screen, this is ok since some responsive
+    shit from materialize.css will fuck this anyway so it is never going to be 100.
+    */
+    width: 100%;  
 }
 
-#stack p {
-    text-align: justify;
-    text-justify: distribute;
-}
-
-
-.tab-holder {
-    padding: 10px;
-    margin-top: 10px;
-}
 
 .avatar {
     margin: 10px;
@@ -40,32 +39,12 @@ body {
 }
 
 
-.collapsible-tab .collapsible {
-    margin-top: 0;
+#full {
+    padding: 0;
+}
+
+pre {
     margin-bottom: 0;
-    border: 0;
-}
-
-.collapsible-header:hover {
-    color: #EB6C72;
-}
-
-#cv {
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-
-#cv .collapsible-body {
-    background-color: #efefe9;
-}
-
-.image {
-    padding-right: 20px;
-    padding-bottom: 20px;
-    float: left;
-    max-width: 200px;
-    max-height: 200px;
 }
 
 hr {

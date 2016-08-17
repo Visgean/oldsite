@@ -6,6 +6,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="static/style.css">
 	<link rel="shortcut icon" href="static/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/styles/darkula.min.css">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
 	<meta charset="UTF-8">
 </head>
@@ -13,22 +15,15 @@
 	<div class="container">
 		<div id='content' class="col s12 m12 l12 z-depth-5">
 			<div class="row">
-				<div class="col s12 m12 l12">
-					<ul class="tabs">
-						<li class="tab col s2 m4 l4"><a href="#about" class="active">Contact</a></li>
-						<li class="tab col s2 m4 l4"><a href="#stack">Skills</a></li>
-					</ul>
-				</div>
 				<div id="about" class="col s12 m12 l12">
-					<div class="row tab-holder">
 						<div class="col s12 m6 l3">
 							<img class="responsive-img avatar circle" src="static/avatar.jpg" alt="Potato circle!"/>
 						</div>
 
 						<div class="col s12 m6 l8 flow-text">
-							<h3>Visgean Skeloru</h3>
+							<h3>I am Visgean</h3>
 							<p>
-								Python / Django developer.
+								Hi, I am Visgean Skeloru, professional developer active since 2011.
 							</p>
 							<div class="social">
 								<a title="Github" target="_blank" href="https://github.com/visgean"><i class="fa fa-github-square fa-3x"></i></a>
@@ -41,73 +36,59 @@
 								<a title="Good Reads" target="_blank" href="https://www.goodreads.com/user/show/32711861-visgean-skeloru"><i class="fa fa-bookmark fa-3x"></i></a>
 							</div>
 						</div>
-					</div>
+						<div class="col s12 m12 l12" id="full">
+
+<pre><code class="json" id="contact">{
+    github: "https://github.com/visgean",
+    stack_overflow: "https://stackoverflow.com/users/823281/visgean-skeloru",
+    linkedIn: "https://cz.linkedin.com/in/visgean",
+    email: "me@visgean.me",
+    jabber: "me@visgean.me",
+    gpg_key: "https://visgean.me/key.asc",
+    last_fm: "http://www.last.fm/user/visgean",
+    good_reads: "https://www.goodreads.com/user/show/32711861-visgean-skeloru",
+    bitcoin: "1NrSwh9dqBWyP8xYyjj9sUJazaNAdMEohB",
+    ethereum: "0x663aBdde3302C5ecCce0f31467604B03e0d9554c",
+    technologies: [
+        "Django / Geo Django", "PostgreSQL", "Ubuntu", "Debian administration", 
+        "Facebook Graph API", "Bitcoin", "Ethereum", "Angular.js", "MongoDB", 
+        "RethinkDB", "nginx", "Bootstrap", "materialize.css", "Unit tests", 
+        "Balance and Frontend testing", "Stripe", "Braintree", "Czech Bank APIs",
+    ],
+    experience: {
+        coex: {
+            year: 2015,
+            months: 14,
+            website: "coex.cz",
+            responsibility: "Django development of bussiness sites"
+        },
+        freelance: {
+            "github.com/WebArchivCZ/Seeder": "Django OS project for National Library",
+            "projectonaut": "My first paid work was to help out with backend of Projectonaut",
+            "topsceneries": "Our photography startup that failed, shit happens.",
+            "klckrystof.cz": "Backend and servers, written in Django. ",
+            "vycepnastojaka.cz": "Website for a pub, I had beers for free there!",
+            "forhaus": "Another Django project, its getting boring.",
+            "filtracnitechnika.cz": "Django project for an air company!",
+            "irenalerman.cz": "Personal website, love those!"
+        }
+    },
+    languages: ["Native Czech", "Proficient English", "Limited Spanish"],
+    activities: {
+        debating: "Debated and judged over 180 academic debates since 2009.",
+        running: "Yap, I am one of those, see http://theoatmeal.com/comics/running",
+        gym: "I like to angrily head-butt my crotch. Read the Oatmeal!",
+        reading: "See my goodreads profile."
+    },
+    awards: {
+        facebook: "$6500 in Security bug bounty programme, lot of money for nothing",
+        dofe: "Bronze, Silver and Gold Duke of Edinburgh Award",
+        debating: "Bronze, Silver and Gold Badge", 
+        math: "Silver and Bronze at UK Mathematics Trust Math Challenge"
+    }
+}</code></pre>
+						</div>
 				</div>
-					<div id="stack" class="col s12 m12 l12 collapsible-tab">
-						<ul class="collapsible" data-collapsible="accordion">
-							<li>
-								<div class="collapsible-header active"><i class="fa fa-code"></i>Django / GeoDjango</div>
-								<div class="collapsible-body flow-text">
-									<p>I have started with Django about <strong>five years</strong> ago. Since than I have developed many applications either as full-stack developer or as a backend programmer. I have been commercially programming in Django since 2011. I have experience with <strong>DjCelery</strong> and <strong>GeoDjango</strong>. I used micro-frameworks such as <strong>Flask</strong> and <a href="http://falconframework.org/">Falcon</a> but I feel most comfortable with Django.</p>
-								</div>
-							</li>
-							<li>
-								<div class="collapsible-header "><i class="fa fa-linux"></i>Ubuntu / Debian</div>
-								<div class="collapsible-body flow-text">
-									<p>I have been <strong>exclusively</strong> using Ubuntu on my PC since 2008. I sysadmined about ten Debian/Apache based servers, these days I fancy <strong>nginx</strong>.</p>
-
-								</div>
-							</li>
-							<li>
-								<div class="collapsible-header "><i class="fa fa-cloud"></i>Cloud integration</div>
-								<div class="collapsible-body flow-text">
-									<p>I have a few sites hosted on <strong>Heroku</strong> and optimized/delivered by <strong>CloudFlare</strong>. Apart from these I also used <a href="https://www.openshift.com/">Open Shift</a> and I have done quite a lot of work with <strong>Facebook API</strong>.</p>
-								</div>
-							</li>
-
-							<li>
-								<div class="collapsible-header "><i class="fa fa-database"></i>PostgreSQL / MongoDB</div>
-								<div class="collapsible-body flow-text">
-									<p>PostgreSQL is my favourite db for its performance and <strong>GeoDjango</strong> support. Recently I used MongoDB. While at first I enjoyed the freedom of structureless documents they turned out to be <strong>impossible to maintain</strong>. That is where <a  target="_blank" href="http://mongoengine.org/">mongoengine</a> helped. I toyed around briefly with RethinkDB.</p>
-
-								</div>
-							</li>
-
-							<li>
-								<div class="collapsible-header "><i class="fa fa-html5"></i>Frontend stack</div>
-								<div class="collapsible-body flow-text">
-									<p>Working with html frameworks such as <strong>bootstrap</strong>, <strong>materialize.css</strong> or <strong>foundation</strong> was lovely experience. I usually poke a little-bit into css but than it pokes back so I stick to backend. <br/> When it comes to Javascript I get things done but I would not call myself an expert. I loved working with <strong>Angular.js</strong> and I am somewhat ok with <strong>jQuery</strong>. Right now I am having good times with <strong>Underscore.js</strong> and I am definitely looking forward for wider adaption of ECMA 6.</p>
-								</div>
-							</li>
-
-							<li>
-								<div class="collapsible-header "><i class="fa fa-cogs"></i>Tools</div>
-								<div class="collapsible-body flow-text">
-									<p>In order to increase my productivity... actually I am just lazy, that&#39;s why. I try to <strong>automatize what can be automatized</strong>. This <a href="https://xkcd.com/1319/">backfires</a> sometimes. <br/> I use <strong>virtualenv</strong> with virtualenvwrapper for all of my projects. For the deployment I have used <strong>Fabric</strong>, <strong>githooks</strong> and cloud-specific tools. Pycharm checks that I code according to pylint and <strong>PEP-8</strong>. For some projects I have set up <strong>Vagrant</strong> but usually I don't need it.</p>
-								</div>
-							</li>
-							<li>
-								<div class="collapsible-header "><i class="fa fa-check"></i>Testing</div>
-								<div class="collapsible-body flow-text">
-									<p>I have experience with <strong>Unit testing</strong>, complex testing with <strong>Selenium</strong> and load testing via <a href="http://locust.io/">Locust</a>. For the real world I use <a href="https://getsentry.com/">Sentry</a>.</p>
-								</div>
-							</li>
-							<li>
-								<div class="collapsible-header "><i class="fa fa-credit-card"></i>Card processing</div>
-								<div class="collapsible-body flow-text">
-									<p>In past years I have successfully implemented <a  target="_blank" href="https://stripe.com/">Stripe</a>, <a  target="_blank" href="https://www.braintreepayments.com/">Braintree</a> and <strong>Paypal</strong>. Apart from cards I worked with Czech <strong>banking APIs</strong> (Raiffeisenbank and FioBank). But I have to admit that their APIs are very obsolete and limited.</p>
-								</div>
-							</li>
-							<li>
-								<div class="collapsible-header "><i class="fa fa-mobile"></i>Two factor authentication</div>
-								<div class="collapsible-body flow-text">
-									<p>
-										I am still surprised how easy it was to implement <em>mobile</em> authentication with sms code verifications.
-									</p>
-								</div>
-							</li>
-						</ul>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -118,6 +99,25 @@
 		<script type="text/javascript" src="static/background.js"></script>
 		<script>
 			changeBackground();
+		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/highlight.min.js"></script>
+		<script>
+		    hljs.initHighlightingOnLoad()
+		</script>
+
+		<script>
+		    var contact_code = $('#contact').html();
+		    eval('var contact = ' + contact_code + ';');
+
+		    Object.values(contact).forEach(function (value, index) {
+		        if (typeof(value.startsWith) !== 'undefined' && value.startsWith('http')) {
+		            var link = '<a target="blank" href="'+value + '">' + value + '</a>';
+		            contact_code = contact_code.replace(new RegExp(value, 'g'), link)            
+		        }
+
+		    });
+
+		    $('#contact').html(contact_code);
 		</script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
